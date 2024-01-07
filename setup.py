@@ -1,6 +1,6 @@
 import setuptools
 
-from version import major, minor, revision
+from pypulseq.version import major, minor, revision
 
 
 def _get_long_description() -> str:
@@ -24,8 +24,10 @@ setuptools.setup(
     author="Keerthi Sravan Ravi",
     author_email="ks3621@columbia.edu",
     classifiers=[
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
         "License :: OSI Approved :: GNU Affero General Public License v3",
         "Operating System :: OS Independent",
     ],
